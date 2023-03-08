@@ -1,4 +1,4 @@
-# Representation of Graph
+# 01. Representation of Graph
 1. Adjacency Matrix
 2. Adjacency List
 3. Edge List
@@ -164,3 +164,77 @@ Linked List/C++ Vector.
 2->
 3->(1,2).(2,1),(1,7)
 ```
+
+# 3. Graph to Edge List
+
+### Undirected Unweighted
+![M9](https://user-images.githubusercontent.com/119610761/223626369-8f37c702-0182-4378-8e87-f63c3dfd701e.jpg)
+
+
+```
+*Total Edge:
+0-1
+1-0
+1-2
+1-3
+2-1
+2-3
+3-1
+3-2
+*Edge List:
+[0,1]
+[1,2]
+[1,3]
+[2,3]
+```
+
+### Directed Weighted
+![M10](https://user-images.githubusercontent.com/119610761/223626451-80ab972e-e286-4b7b-b214-21191853ca52.jpg)
+
+
+```
+*Total Edge:
+0-1(5)
+1-2(3)
+2-3(2)
+1-3(1)
+*Edge List:
+[0,1,5]
+[1,2,3]
+[2,3,2]
+[1,3,1]
+```
+
+### Self Loop And Multi Edge
+![M11](https://user-images.githubusercontent.com/119610761/223626522-db69adf7-b143-4001-a5f9-c2d091522fa8.jpg)
+
+
+```
+*Total Edge:
+0-1
+0-1
+1-1
+1-2
+3-2
+3-1
+*Edge List:
+[0,1]
+[0,1]
+[1,1]
+[1-2]
+[3-2]
+[3-1]
+```
+
+# 02. Time Complexity(Recap)
+
+```
+Time Complexity:
+1.Assignment Operation(=)->O(1)
+2.Arithmatic Operation(+,-,*,/)->O(1)
+3.Boolean Operation(^)->O(1)
+4.Loop->Depends on value of n
+5.Function Call->O(1)
+The Graph of Time Complexity:
+```
+![Time Complexity](https://user-images.githubusercontent.com/119610761/223628642-63b47cc1-1428-41f7-b3b9-ceb452203a9e.jpg)

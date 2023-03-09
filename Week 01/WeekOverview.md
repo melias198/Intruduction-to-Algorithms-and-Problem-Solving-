@@ -10,4 +10,20 @@
 
 ### Module 02
 ```
+-Graph Representation
+ ->Adjacency Matrix
+ ->Adjacency List
+ ->Edge List
+-Time Complexity(Recap) 
 ```
+
+### Practice Day 1(M 2.5)
+[Practice Day 1](https://docs.google.com/document/d/1SM2Wcf15Am4JtTpghgV5EXSBOseibvNaiypUJXHzm8A/edit).
+
+
+### Module 03(Lab 01)
+```
+```
+
+### Practice Day 2(M 3.5)
+[Practice Day 2]().

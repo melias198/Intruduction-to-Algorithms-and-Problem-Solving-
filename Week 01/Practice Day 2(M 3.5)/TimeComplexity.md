@@ -1,5 +1,5 @@
 # 1. Calculate time and space complexity of the following code snippet:
-
+```
 int a = 0, b = 0;
 int matrix[N][M];
 for (i = 0; i < N; i++) {
@@ -9,6 +9,7 @@ for (i = 0; i < N; i++) {
 for (j = 0; j < M; j++) {
     b = b + 2 * j;
 }
+```
 
 **Time complexity:**
 ```
@@ -30,13 +31,14 @@ The space complexity of this code is O(N*M), as the matrix takes up NM integers 
 ```
 
 # 2. Calculate time and space complexity of the following code:
-
+```
 int a = 0;
 for (i = 0; i < N; i++) {
     for (j = N; j > i; j--) {
         a = a + i + j;
     }
 }
+```
 **Time complexity:**
 ```
 Time Complexity:-->O(n^2)
@@ -58,7 +60,7 @@ The space complexity of this code is O(1), because the amount of memory used is 
 ```
 
 # 3. Calculate time and space complexity of the following code:
-
+```
 int a = 0, i = N;
 vector<int> vec;
 while (i > 0) {
@@ -66,7 +68,7 @@ while (i > 0) {
     i /= 2;
     vec.push_back(a);
 }
-
+```
 **Time complexity:**
 ```
 Time complexity:-->O(logn)

@@ -23,7 +23,11 @@
 
 ### Module 03(Lab 01)
 ```
+-Code Implement With Time Complexity
+-Adjacent Matrix
+-Adjacent List
+-Edge List
 ```
 
 ### Practice Day 2(M 3.5)
-[Practice Day 2]().
+[Practice Day 2](https://docs.google.com/document/d/1m9AP3x1FdZepBC_BvD97DSVNIXtap_Bcng2YliJvOO0/edit).

@@ -109,4 +109,12 @@ Example:
     A, B, C, D, E, F
 ```
 
+**Recursion**
+```
+Step->
+     1. Can we solve the smallest problem?
+     2. Can we solve the larger problem given the smaller problem is already solved?
+     3. Generalize the relation into a formula.
+```
+
 

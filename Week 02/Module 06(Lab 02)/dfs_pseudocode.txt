@@ -1,0 +1,10 @@
+// graph
+// visited array
+void dfs(int node)
+{
+    cout<<node<<"\n";
+    visited[node]=1;
+    for all adja_node of node:
+        if visited[adja_node]==0;
+           dfs(adja_node)
+}

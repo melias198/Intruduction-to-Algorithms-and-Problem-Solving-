@@ -1,0 +1,5 @@
+## Week 05 (Recap)
+
+
+### Theory Assignment 02
+[Theory Assignment 02](https://docs.google.com/document/d/15W7WjcDYnuRMA1BD1ObCj3K2-mzjLRJKNrkxZrN8sXE/edit).

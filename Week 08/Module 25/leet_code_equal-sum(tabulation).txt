@@ -1,0 +1,46 @@
+class Solution {
+public:
+    bool subset_sum(vector<int>& nums,int target)
+    {
+        int dp[nums.size()+1][target+1];
+        dp[0][0]=true;
+        for(int i=1;i<=target;i++)
+        {
+          dp[0][i]=false;
+        }
+        for(int i=1;i<nums.size();i++)
+        {
+           for(int j=0;j<=target;j++)
+           {
+              bool ans1=dp[i-1][j];
+              if(j<nums[i])
+              {
+                dp[i][j]=ans1;
+              }
+              else
+              {
+                bool ans2=dp[i-1][j-nums[i]];
+                dp[i][j]=ans1 or ans2;
+              }
+           }
+       }
+       return dp[nums.size()-1][target];
+
+    }
+
+    bool canPartition(vector<int>& nums) {
+        int total_sum=0;
+        for(int i=0;i<nums.size();i++)
+        {
+            total_sum+=nums[i];
+        }
+        if(total_sum%2==1)
+        {
+            return false;
+        }
+        else
+        {
+            return subset_sum(nums,total_sum/2);
+        }
+    }
+};
